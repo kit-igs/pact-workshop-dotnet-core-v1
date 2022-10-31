@@ -68,7 +68,7 @@ namespace tests.Middleware
             }
         }
 
-        private void HandleProviderStatesRequest(HttpContext context)
+        private async void HandleProviderStatesRequest(HttpContext context)
         {
             context.Response.StatusCode = (int)HttpStatusCode.OK;
 
@@ -78,7 +78,7 @@ namespace tests.Middleware
                 string jsonRequestBody = String.Empty;
                 using (var reader = new StreamReader(context.Request.Body, Encoding.UTF8))
                 {
-                    jsonRequestBody = reader.ReadToEnd();
+                    jsonRequestBody = await reader.ReadToEndAsync();
                 }
 
                 var providerState = JsonConvert.DeserializeObject<ProviderState>(jsonRequestBody);
