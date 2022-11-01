@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=41c1f630_002D6e8c_002D44a8_002D831e_002D1714473a92b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ItHandlesEmptyDateParam" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D03FD104-6FAA-9701-CF2C-999019A607C3::net6.0::tests.ConsumerPactTests.ItHandlesEmptyDateParam&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D03FD104-6FAA-9701-CF2C-999019A607C3::net6.0::tests.ConsumerPactTests.ItHandlesNoDataInTheFolder&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D03FD104-6FAA-9701-CF2C-999019A607C3::net6.0::tests.ConsumerPactTests.ItHandlesNoData&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D03FD104-6FAA-9701-CF2C-999019A607C3::net6.0::tests.ConsumerPactTests.ItParsesDateCorrectly&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
